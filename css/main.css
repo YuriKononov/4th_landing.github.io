@@ -1,0 +1,109 @@
+.header-buttons {
+  display: flex;
+  justify-content: space-evenly; }
+  .header-buttons .header-buttons-places {
+    margin: auto 15px auto 15px; }
+    .header-buttons .header-buttons-places a.btns {
+      font-family: Montserrat;
+      text-decoration: none;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 18px;
+      color: #FFFFFF; }
+
+.enter-button {
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 5px 30px 5px 30px; }
+  .enter-button a.entr {
+    font-family: Montserrat;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF; }
+
+.try-button {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 46px;
+  background: #E94A47;
+  border-radius: 5px; }
+  .try-button a.try {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none; }
+
+body {
+  margin: 0; }
+
+.container {
+  padding: 20px 10% 20px 10%;
+  margin: 20px 0 20px 0;
+  height: 100%; }
+
+.header {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background: linear-gradient(238.95deg, #23286B 18.43%, rgba(29, 50, 124, 0.984553) 53.52%, rgba(10, 85, 183, 0.93) 111.46%); }
+  .header .top-header-part {
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline; }
+    .header .top-header-part .logo {
+      display: flex;
+      width: 156px;
+      height: 70px; }
+  .header .main-header-part {
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+    .header .main-header-part .txt-part {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly; }
+      .header .main-header-part .txt-part .top-text {
+        padding: 3vh 0;
+        display: flex;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 43px;
+        color: #ffffff;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+      .header .main-header-part .txt-part .bottom-text {
+        padding: 3vh 0;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+        display: flex;
+        flex-direction: column;
+        color: #ffffff; }
+    .header .main-header-part .reading-img {
+      display: flex;
+      max-width: 548px;
+      max-height: 455px;
+      width: 100%;
+      height: 100%; }
+
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column; }

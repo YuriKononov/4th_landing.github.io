@@ -1,4 +1,7 @@
 .header-buttons{
+    @media (max-width:1060px) {
+        display: none;
+    }
     display: flex;
     justify-content: space-evenly;
     .header-buttons-places{
@@ -20,6 +23,9 @@
     box-sizing: border-box;
     border-radius: 5px;
     padding: 5px 30px 5px 30px;
+    @media (max-width:561px) {
+        display: none;
+    }
     a.entr{
         font-family: Montserrat;
         text-decoration: none;
@@ -38,8 +44,11 @@
     height: 46px;
     background: #E94A47;
     border-radius: 5px;
+    @media (max-width:350px) {
+       width: 150px;
+    }
     
-    a.try{
+    a {
         font-family: Montserrat;
         font-style: normal;
         font-weight: bold;
@@ -50,4 +59,36 @@
 
     }
 }
-
+.go-test-button{
+    margin-top: 10px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    background: #E94A47;
+    border-radius: 5px;
+    @media (max-width:350px) {
+        margin-bottom: 120px;
+    }
+    a{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 18px;
+        text-decoration: none;
+        color: #FFFFFF;
+    
+    }
+}
+.menu{
+    max-width: 70px;
+    max-height: 70px;
+}
+.menu-button{
+    display: flex;
+    @media (min-width:1060px) {
+        display: none;
+    }
+}
